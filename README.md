@@ -1,1 +1,0 @@
-# GaneshPharma.github.io
