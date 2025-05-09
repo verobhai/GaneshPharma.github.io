@@ -1,0 +1,25 @@
+/* Add your existing styles here */
+
+/* Accessibility */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 2px dashed #00bfff;
+  outline-offset: 2px;
+}
+/* Responsive Images */
+.product-img, .logo-img {
+  max-width: 100%;
+  height: auto;
+}
+/* Media Queries */
+@media (max-width: 767px) {
+  .nav-container ul { flex-direction: column; gap: 15px; }
+  .hero-refined-title { font-size: 40px; }
+  .product-grid { grid-template-columns: 1fr; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .hero-refined-title { font-size: 48px; }
+}
+@media (min-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}

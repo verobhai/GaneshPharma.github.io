@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ganesh Pharma - Trusted Healthcare Since 1998 in Agra" />
+  <meta property="og:title" content="Ganesh Pharma" />
+  <meta property="og:description" content="Quality medicines and healthcare products" />
+  <meta property="og:image" content="https://yourdomain.com/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Ganesh Pharma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav aria-label="Main Navigation">
+    <div class="nav-container">
+      <h1 class="logo">
+        <a href="#" aria-label="Home">
+          <img src="logo.png" alt="Ganesh Pharma Logo" class="logo-img" />
+        </a>
+      </h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="premium-divider" role="separator">
+    <span class="divider-line"></span>
+    <span class="divider-icon">+</span>
+    <span class="divider-line"></span>
+  </div>
+
+  <section class="hero-refined">
+    <div class="hero-container">
+      <h1 class="hero-refined-title">Welcome to <span>Ganesh Pharma</span></h1>
+      <p class="hero-refined-subtext">Trusted Healthcare Since 1998</p>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>Ganesh Pharma is a family-owned pharmacy located in Agra, serving the community since 1998.</p>
+  </section>
+
+  <section id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="grid product-grid">
+      <div class="product-card">
+        <img src="medicine1.webp" alt="Prescription Medicines" class="product-img" />
+        <h3>Prescription Medicines</h3>
+        <p>Doctor-prescribed medications available at affordable prices.</p>
+      </div>
+      <div class="product-card">
+        <img src="medicine2.webp" alt="OTC Products" class="product-img" />
+        <h3>OTC Products</h3>
+        <p>Over-the-counter essentials including pain relievers and cold & flu relief.</p>
+      </div>
+      <div class="product-card">
+        <img src="medicine3.webp" alt="Health Supplements" class="product-img" />
+        <h3>Health Supplements</h3>
+        <p>Vitamins and dietary supplements for your daily health needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <form id="contact-form" action="https://formspree.io/f/yourFormID" method="POST" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <input type="hidden" name="_subject" value="New inquiry from website" />
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ganesh Pharma. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
